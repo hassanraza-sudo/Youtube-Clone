@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fafafa;
+}
+
+.Logo {
+  height: 25px;
+  object-fit: contain;
+}
+
+.youtube-logo {
+  margin-left: 20px;
+}
+
+.youtube-text {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 8px;
+}
+
+.header-input > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 3px;
+}
+
+.search-inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgrey;
+  color: grey;
+  margin-right: 5px;
+}

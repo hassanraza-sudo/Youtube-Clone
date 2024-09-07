@@ -1,0 +1,42 @@
+.sidebarrow {
+  display: flex;
+  align-items: center;
+  padding: 7px 14px;
+}
+
+.sidebarrow-icons {
+  color: #606060;
+  font-size: large !important;
+}
+
+.sidebarrow-title {
+  flex: 1;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.sidebarrow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebarrow:hover .sidebarrow-icons {
+  color: red;
+}
+
+.sidebarrow:hover .sidebarrow-title {
+  font-weight: bold;
+}
+
+.sidebarrow.selected {
+  background-color: grey;
+}
+
+.sidebarrow.selected > .sidebarrow-icons {
+  color: red;
+}
+
+.sidebarrow.selected > .sidebarrow-title {
+  font-weight: bold;
+}
